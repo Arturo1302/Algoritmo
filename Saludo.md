@@ -1,12 +1,13 @@
-Algoritmo SaludoPersonalizado
-    Definir nombre Como Caracter
-    Definir edad Como Entero
+Algoritmo Preciofinal
+    Definir precio, descuento, total como real
 
-    Escribir "¿Cómo te llamas?"
-    Leer nombre
+    Escribir "Ingrese el precio del producto"
+    Leer precio
 
-    Escribir "¿Cuántos años tienes?"
-    Leer edad
+    Escribir "descuento a aplicar"
+    Leer descuento
 
-    Escribir "Hola ", nombre, ", tienes ", edad, " años"
+    Total<-Precio-descuento
+
+    Escribir "Precio final ", total, 
 FinAlgoritmo
